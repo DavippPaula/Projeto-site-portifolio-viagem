@@ -1,0 +1,646 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+ /*-----------mae---------------*/
+.mae{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    justify-content: flex-start;
+}
+/*--------------MENU HEADER----------*/
+#menu1{
+    width: 9%;
+    height: 50vw;
+    background: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+/*imagem do cabeçalho*/
+.img{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    background-image:url(/img/banner.jpg);
+    background-position: center;
+}
+/*------------ CABEÇALHO -------------------*/
+.cabeçalho{
+    width: 100%;
+    height: 7vw;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+
+}
+
+.logo{
+    width: 20%;
+    height: 6vw;
+    background-color: crimson;
+    background: none;
+    cursor: pointer;
+}
+#nav_header{
+    width: 30%;
+    height: 6vw;
+    background-color: darkgoldenrod;
+    background: none;
+}
+.btn_portifolio{
+    width: 6rem;
+    height: 3rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.7rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.btn_portifolio:hover{
+    background-color: rgb(141, 141, 141);
+    color: black;
+}
+
+.btn_preço{
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    background: none;
+    border: none;
+    margin-left: 3rem;
+    color: white;
+    cursor: pointer;
+    
+}
+.btn_preço:hover{
+    color: rgb(110, 110, 110);
+}
+/* ----------------TITULO E TEXTO QUE ESTA NA IMAGEM---------------------*/ 
+.conteudo_img{
+    width: 80%;
+    height: 35vw;
+    background-color: darkgreen;
+    margin-left: 10vw;
+    padding-top: 9vw;
+    background: none;
+}
+#titulo1{
+    width: 100%;
+    height: 5vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: white;
+}
+#titulo1 > h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-display: 300;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto{
+    width: 100%;
+    height: 7.8vw;
+    background-color: bisque;
+    background: none;
+    color: white;
+}
+#texto > p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.btn{
+    width: 100%;
+    height: 5vw;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+}
+/*-----------butao Principal------------*/
+.btn_principal{
+    width: 15%;
+    height: 3vw;
+    background-color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+/*----------------Menu hamburguer navegar---------------------*/
+#divmenu{
+    width: 100%;
+    height: 7vw;
+    margin-top: 0.9rem;
+    padding-left: 0.9rem;
+}
+.navegacao{
+    width: 100%;
+    height: 10vw;
+    background-color: black;
+    color: white;
+    padding-left: 1.2rem;
+}
+#space{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*------------------------------------------------------MAE 2 -------------------------------------------------*/
+.mae2{
+    width: 100%;
+    height: 47vw;
+    background-color: rgb(241, 241, 241);
+    padding-left: 10vh;
+    padding-top: 11vh;
+    padding-bottom: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image2{
+    width: 45%;
+    height: 35vw;
+    background-color: blue;
+    background-image: url(/img/about_img.jpg);
+    background-position: center;
+}
+.secao{
+    width: 50%;
+    height: 26vw;
+    margin-top: 4vw;
+}
+#titulo_secao{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: end;
+    padding-right: 2vh;
+    
+}
+#titulo_secao > h1{
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+#texto_secao{
+    width: 100%;
+    height: 13vw;
+    padding: 2vh;
+}
+#texto_secao > p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+.btn_secao{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: end;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.btn_saiba{
+    width: 130%;
+    height: 4vw;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+/*---------mae 3---------------------------------------*/
+.mae3{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(255, 255, 255);
+}
+.titulo_mae_3{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.sec4{
+    width: 100%;
+    height: 10vw;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: flex-start;
+
+}
+.numero{
+    width: 9%;
+    height: 7vw;
+    background-color: silver;
+    margin-left: 15%;
+}
+.numero > h1{
+    font-size: 5rem;
+    color: black;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-style:inherit;
+}
+.titulo_sec{
+    width: 69%;
+    height: 2vw;
+    background-color: rgb(184, 184, 184);
+    padding-left: 0.7rem;
+    margin-left: 20.3rem;
+}
+.texto_sec{
+    width: 68.9%;
+    height: 7vw;
+    background-color: rgb(255, 255, 255);
+    padding-left: 0.4rem;
+}
+.mae4{
+    width: 100%;
+    height: 45vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5rem;
+}
+.titulo_mae_4{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.titulo_mae_4 > h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_mae_4{
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+}
+/*------------secao_slide-----------*/
+.content{
+    width: 70%;
+    height: 30vw;
+    overflow: hidden;
+    position: absolute;
+    background-color: black;
+    margin-left: 17.7%;
+    margin-top: 3vw;
+}
+.navgator{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background-color: white;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slides > input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+.slide > img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+/*---------------mae 5--------------*/
+.mae5{
+    width: 100%;
+    max-width: 100%;
+    height: 63vw;
+    background-color: black;
+}
+/*---------cabeçalho mae 5-------------*/
+.cabeçalho_main{
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    border: solid 1px black;
+}
+.contact{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 18vw;
+    display: flex;
+    align-items: center;
+}
+.contact >h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------Navegação de contato---------------*/
+.nav_info{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#location{
+    width: 20%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px black solid;
+}
+.icon_info{
+    width: 20%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.5rem;
+}
+.icon_info > img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+text > h2{
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.call{
+    width: 25%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+
+}
+.text_call{
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding-left: 0.3rem;
+}
+.postal{
+    width: 30%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+.text_postal{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+/*-------------Secao 5--------------*/
+.secao5{
+    width: 100%;
+    max-width: 100%;
+    height: 28vw;
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: flex-start;
+}
+.form{
+    width: 40%;
+    height: 100%;
+    background-color: chartreuse;
+    margin-left: 17.8vw;
+
+}
+.form1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.form1 > input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+}
+.form1 > input::placeholder{
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.7rem;
+}
+.btn_form{
+    width: 100%;
+    height: 18%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#butao_form{
+    width: 20%;
+    height: 8vh;
+    border: rgb(104, 104, 104) solid 0.2rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+#butao_form:hover{
+    background-color: rgb(209, 209, 209);
+}
+.maps_img{
+    width: 42%;
+    height: 100%;
+    background-color: darkgray;
+}
+.maps_img > img{
+    width: 100%;
+    height: 100%;
+}
+/*------------------secao 6-----------------------*/
+.secao6{
+    width: 100%;
+    height: 19vw;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15vw;
+}
+/*-----social midia------*/
+.social_midia{
+    width: 30%;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    border: 1px solid black;
+}
+#instagram{
+    width: 11%;
+    height: 3vw;
+    background-color:white;
+    border-radius: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#linkedin{
+    width: 11%;
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#mango_digital{
+    width: 11%;
+    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.news_later{
+    width: 60%;
+    height: 12vw;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px black;
+}
+.news_input{
+    width: 70%;
+    height: 4vw;
+    background-color: white;
+}
+.news_input > input{
+    width: 100%;
+    height: 100%;
+
+}
+.secao_input{
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(184, 184, 184);
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+.news_button{
+    width: 10vh;
+    height: 3vw;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.news_later > label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.3rem;
+}
+.copy{
+    width: 100%;
+    height: 4vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
